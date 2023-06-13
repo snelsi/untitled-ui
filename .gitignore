@@ -1,7 +1,7 @@
 # Node modules
 node_modules
 # Build folders
-build
+lib
 # Environment vars
 .env
 # Misc
@@ -9,4 +9,3 @@ build
 .idea
 .vscode
 *.log
-package-lock.json

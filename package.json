@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devias-io/untitled-ui.git"
+    "url": "git+https://github.com/snelsi/untitled-ui.git"
   },
   "scripts": {
     "build:icons": "npm run build:icons:react",
