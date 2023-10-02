@@ -10,11 +10,14 @@ function getComponentName(svgPath) {
 }
 
 function exportAll(components, includeExtension = true) {
-  const extension = includeExtension ? '.tsx' : '';
+  const extension = includeExtension ? '.js' : '';
 
   const content = components
     .sort()
-    .map((component) => `export { default as ${component} } from './${component}${extension}';`)
+    .map(
+      (component) =>
+        `export { default as ${component} } from './${component}${extension}';`
+    )
     .join('\n');
 
   return content + '\n';
@@ -50,7 +53,7 @@ export async function build(pkgDir, iconsPaths) {
         },
         typescript: true,
         ref: true,
-        memo: true,
+        memo: true
       },
       { componentName }
     );
@@ -60,5 +63,5 @@ export async function build(pkgDir, iconsPaths) {
     components.push(componentName);
   }
 
-  ensureWrite(path.join(outDir, 'index.tsx'), exportAll(components, false));
+  ensureWrite(path.join(outDir, 'index.tsx'), exportAll(components));
 }

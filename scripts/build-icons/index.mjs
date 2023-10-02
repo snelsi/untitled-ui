@@ -38,12 +38,7 @@ async function handler(argv) {
 }
 
 yargs(hideBin(process.argv))
-  .command(
-    'build [pkg]',
-    'Build icons for package',
-    () => {},
-    handler
-  )
+  .command('build [pkg]', 'Build icons for package', () => {}, handler)
   .option('verbose', {
     alias: 'v',
     type: 'boolean',
