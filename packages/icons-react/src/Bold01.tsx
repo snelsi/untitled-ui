@@ -14,7 +14,7 @@ const Bold01 = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M6 12h8c2.2091 0 4-1.7909 4-4 0-2.2091-1.7909-4-4-4H6v8Zm0 0h9c2.2091 0 4 1.7909 4 4 0 2.2091-1.7909 4-4 4H6v-8Z"
+      d="M6 12h8c2.2091 0 4-1.7909 4-4s-1.7909-4-4-4H6zm0 0h9c2.2091 0 4 1.7909 4 4s-1.7909 4-4 4H6z"
     />
   </svg>
 );

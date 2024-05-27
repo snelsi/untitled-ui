@@ -17,7 +17,7 @@ const BarChartCircle03 = (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M8.4 6.5v9m3.6-5.4v5.4m3.6-1.8v1.8M21 11c0 4.9706-4.0294 9-9 9s-9-4.0294-9-9 4.0294-9 9-9 9 4.0294 9 9Z"
+      d="M8.4 6.5v9m3.6-5.4v5.4m3.6-1.8v1.8M21 11c0 4.9706-4.0294 9-9 9s-9-4.0294-9-9 4.0294-9 9-9 9 4.0294 9 9"
     />
   </svg>
 );

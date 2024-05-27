@@ -14,7 +14,7 @@ const XCircle = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="m14.7 9.3-5.4 5.4m0-5.4 5.4 5.4M21 12c0 4.9706-4.0294 9-9 9s-9-4.0294-9-9 4.0294-9 9-9 9 4.0294 9 9Z"
+      d="m14.7 9.3-5.4 5.4m0-5.4 5.4 5.4M21 12c0 4.9706-4.0294 9-9 9s-9-4.0294-9-9 4.0294-9 9-9 9 4.0294 9 9"
     />
   </svg>
 );

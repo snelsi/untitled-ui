@@ -14,7 +14,7 @@ const CircleCut = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M7.5 18.796C10.1901 17.2398 12 14.3313 12 11c0-3.3313-1.8099-6.2398-4.5-7.796M21 11c0 4.9706-4.0294 9-9 9s-9-4.0294-9-9 4.0294-9 9-9 9 4.0294 9 9Z"
+      d="M7.5 18.796C10.1901 17.2398 12 14.3313 12 11s-1.8099-6.2398-4.5-7.796M21 11c0 4.9706-4.0294 9-9 9s-9-4.0294-9-9 4.0294-9 9-9 9 4.0294 9 9"
     />
   </svg>
 );

@@ -17,14 +17,14 @@ const Contrast02 = (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M12 20c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9Z"
+      d="M12 20c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9"
     />
     <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M12 16.85c3.2309 0 5.85-2.6191 5.85-5.85 0-3.2309-2.6191-5.85-5.85-5.85v11.7Z"
+      d="M12 16.85c3.2309 0 5.85-2.6191 5.85-5.85S15.2309 5.15 12 5.15z"
     />
   </svg>
 );

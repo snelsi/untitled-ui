@@ -14,7 +14,7 @@ const Upload03 = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M15.6 12 12 8.4m0 0L8.4 12M12 8.4v7.2m9-3.6c0 4.9706-4.0294 9-9 9s-9-4.0294-9-9 4.0294-9 9-9 9 4.0294 9 9Z"
+      d="M15.6 12 12 8.4m0 0L8.4 12M12 8.4v7.2m9-3.6c0 4.9706-4.0294 9-9 9s-9-4.0294-9-9 4.0294-9 9-9 9 4.0294 9 9"
     />
   </svg>
 );

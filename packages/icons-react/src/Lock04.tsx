@@ -14,7 +14,7 @@ const Lock04 = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M7.101 10H7V8c0-2.7614 2.2386-5 5-5s5 2.2386 5 5v2h-.101M12 14v2m7-1c0 3.866-3.134 7-7 7s-7-3.134-7-7 3.134-7 7-7 7 3.134 7 7Z"
+      d="M7.101 10H7V8c0-2.7614 2.2386-5 5-5s5 2.2386 5 5v2h-.101M12 14v2m7-1c0 3.866-3.134 7-7 7s-7-3.134-7-7 3.134-7 7-7 7 3.134 7 7"
     />
   </svg>
 );

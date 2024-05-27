@@ -17,7 +17,7 @@ const PlusCircle = (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M12 8.4v7.2M8.4 12h7.2m5.4 0c0 4.9706-4.0294 9-9 9s-9-4.0294-9-9 4.0294-9 9-9 9 4.0294 9 9Z"
+      d="M12 8.4v7.2M8.4 12h7.2m5.4 0c0 4.9706-4.0294 9-9 9s-9-4.0294-9-9 4.0294-9 9-9 9 4.0294 9 9"
     />
   </svg>
 );

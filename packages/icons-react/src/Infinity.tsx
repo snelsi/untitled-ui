@@ -14,7 +14,7 @@ const Infinity = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M18.1777 8c5.0961 0 5.0961 8 0 8-5.0949 0-7.1329-8-12.739-8-4.585 0-4.585 8 0 8 5.6061 0 7.6441-8 12.7401-8h-.0011Z"
+      d="M18.1777 8c5.0961 0 5.0961 8 0 8-5.0949 0-7.1329-8-12.739-8-4.585 0-4.585 8 0 8 5.6061 0 7.6441-8 12.7401-8z"
     />
   </svg>
 );

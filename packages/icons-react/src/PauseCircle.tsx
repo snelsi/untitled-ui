@@ -17,7 +17,7 @@ const PauseCircle = (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M9.75 13.7V8.3m4.5 5.4V8.3M21 11c0 4.9706-4.0294 9-9 9s-9-4.0294-9-9 4.0294-9 9-9 9 4.0294 9 9Z"
+      d="M9.75 13.7V8.3m4.5 5.4V8.3M21 11c0 4.9706-4.0294 9-9 9s-9-4.0294-9-9 4.0294-9 9-9 9 4.0294 9 9"
     />
   </svg>
 );

@@ -14,7 +14,7 @@ const Mouse = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M11.3 9.3V6.6m0 14.4C7.8206 21 5 18.1794 5 14.7V9.3C5 5.8206 7.8206 3 11.3 3c3.4794 0 6.3 2.8206 6.3 6.3v5.4c0 3.4794-2.8206 6.3-6.3 6.3Z"
+      d="M11.3 9.3V6.6m0 14.4C7.8206 21 5 18.1794 5 14.7V9.3C5 5.8206 7.8206 3 11.3 3s6.3 2.8206 6.3 6.3v5.4c0 3.4794-2.8206 6.3-6.3 6.3"
     />
   </svg>
 );

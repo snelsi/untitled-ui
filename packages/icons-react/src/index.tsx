@@ -831,6 +831,7 @@ export { default as Phone01 } from './Phone01.js';
 export { default as Phone02 } from './Phone02.js';
 export { default as PhoneCall01 } from './PhoneCall01.js';
 export { default as PhoneCall02 } from './PhoneCall02.js';
+export { default as PhoneCheck } from './PhoneCheck.js';
 export { default as PhoneHangUp } from './PhoneHangUp.js';
 export { default as PhoneIncoming01 } from './PhoneIncoming01.js';
 export { default as PhoneIncoming02 } from './PhoneIncoming02.js';
