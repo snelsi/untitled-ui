@@ -38,11 +38,16 @@ export async function build(pkgDir, iconsPaths) {
   for (const iconPath of iconsPaths) {
     const svg = fs.readFileSync(iconPath).toString();
     const componentName = getComponentName(iconPath);
+    const iconName = path.parse(iconPath).name;
     const component = await svgr.transform(
       svg,
       {
         svgo: true,
         svgoConfig,
+        svgProps: {
+          role: 'img',
+          name: iconName
+        },
         plugins: [
           '@svgr/plugin-svgo',
           '@svgr/plugin-jsx',
