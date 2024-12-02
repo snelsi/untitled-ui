@@ -1,45 +1,5 @@
 export const svgoConfig = {
   floatPrecision: 4,
   multipass: true,
-  plugins: [
-    { name: 'cleanupAttrs' },
-    { name: 'removeDoctype' },
-    { name: 'removeXMLProcInst' },
-    { name: 'removeComments' },
-    { name: 'removeMetadata' },
-    { name: 'removeTitle' },
-    { name: 'removeDesc' },
-    { name: 'removeUselessDefs' },
-    { name: 'removeEditorsNSData' },
-    { name: 'removeEmptyAttrs' },
-    { name: 'removeHiddenElems' },
-    { name: 'removeEmptyText' },
-    { name: 'removeDimensions' },
-    { name: 'cleanupEnableBackground' },
-    { name: 'minifyStyles' },
-    { name: 'convertStyleToAttrs' },
-    { name: 'convertColors' },
-    { name: 'convertPathData' },
-    { name: 'convertTransform' },
-    { name: 'removeUnknownsAndDefaults' },
-    { name: 'removeNonInheritableGroupAttrs' },
-    {
-      name: 'removeUselessStrokeAndFill',
-      params: { removeNone: true }
-    },
-    { name: 'removeUnusedNS' },
-    { name: 'cleanupNumericValues' },
-    { name: 'cleanupListOfValues' },
-    { name: 'moveElemsAttrsToGroup' },
-    { name: 'moveGroupAttrsToElems' },
-    { name: 'collapseGroups' },
-    { name: 'removeRasterImages' },
-    { name: 'mergePaths' },
-    { name: 'convertShapeToPath' },
-    { name: 'sortAttrs' },
-    { name: 'removeElementsByAttr' },
-    { name: 'removeStyleElement' },
-    { name: 'removeScriptElement' },
-    { name: 'removeEmptyContainers' }
-  ]
+  plugins: ['preset-default']
 };
