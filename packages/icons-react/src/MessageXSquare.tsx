@@ -9,6 +9,8 @@ const MessageXSquare = (
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
+    role="img"
+    name="message-x-square"
     ref={ref}
     {...props}
   >

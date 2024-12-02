@@ -6,6 +6,8 @@ const Sliders04 = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
+    role="img"
+    name="sliders-04"
     ref={ref}
     {...props}
   >

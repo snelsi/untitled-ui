@@ -9,6 +9,8 @@ const ArrowNarrowDownLeft = (
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
+    role="img"
+    name="arrow-narrow-down-left"
     ref={ref}
     {...props}
   >

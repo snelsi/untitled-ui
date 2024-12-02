@@ -9,6 +9,8 @@ const Hourglass02 = (
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
+    role="img"
+    name="hourglass-02"
     ref={ref}
     {...props}
   >

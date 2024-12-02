@@ -9,6 +9,8 @@ const ThumbsDown = (
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
+    role="img"
+    name="thumbs-down"
     ref={ref}
     {...props}
   >

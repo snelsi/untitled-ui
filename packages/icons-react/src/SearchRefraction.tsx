@@ -9,6 +9,8 @@ const SearchRefraction = (
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
+    role="img"
+    name="search-refraction"
     ref={ref}
     {...props}
   >

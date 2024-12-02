@@ -6,6 +6,8 @@ const Dice3 = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
+    role="img"
+    name="dice-3"
     ref={ref}
     {...props}
   >

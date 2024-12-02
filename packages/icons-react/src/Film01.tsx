@@ -6,6 +6,8 @@ const Film01 = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
+    role="img"
+    name="film-01"
     ref={ref}
     {...props}
   >

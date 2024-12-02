@@ -6,6 +6,8 @@ const Tram = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
+    role="img"
+    name="tram"
     ref={ref}
     {...props}
   >

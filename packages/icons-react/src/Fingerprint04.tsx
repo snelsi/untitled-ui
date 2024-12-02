@@ -9,6 +9,8 @@ const Fingerprint04 = (
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
+    role="img"
+    name="fingerprint-04"
     ref={ref}
     {...props}
   >

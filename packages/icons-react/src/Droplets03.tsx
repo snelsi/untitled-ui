@@ -9,6 +9,8 @@ const Droplets03 = (
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
+    role="img"
+    name="droplets-03"
     ref={ref}
     {...props}
   >

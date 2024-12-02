@@ -9,6 +9,8 @@ const LineHeight = (
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
+    role="img"
+    name="line-height"
     ref={ref}
     {...props}
   >
