@@ -780,6 +780,7 @@ export { default as Monitor02 } from './Monitor02.js';
 export { default as Monitor03 } from './Monitor03.js';
 export { default as Monitor04 } from './Monitor04.js';
 export { default as Monitor05 } from './Monitor05.js';
+export { default as Monitor06 } from './Monitor06.js';
 export { default as Moon01 } from './Moon01.js';
 export { default as Moon02 } from './Moon02.js';
 export { default as MoonEclipse } from './MoonEclipse.js';
