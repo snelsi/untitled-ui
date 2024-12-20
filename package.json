@@ -20,12 +20,12 @@
     "@svgr/plugin-jsx": "^8.1.0",
     "@svgr/plugin-prettier": "^8.1.0",
     "@svgr/plugin-svgo": "^8.1.0",
-    "@types/node": "^22.10.1",
-    "@types/react": "^18.3.12",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
     "@types/yargs": "^17.0.33",
     "camelcase": "^8.0.0",
-    "react": "^18.3.1",
-    "svgo": "4.0.0-rc.1",
+    "react": "^19.0.0",
+    "svgo": "^4.0.0-rc.1",
     "typescript": "^5.7.2",
     "yargs": "^17.7.2"
   }
